@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOCUX – Seu Companheiro de Clareza</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f2f7fa; color: #333; }
+    header { background: #6c63ff; color: white; padding: 2rem; text-align: center; }
+    h1 { margin: 0 0 1rem 0; font-size: 2.5rem; }
+    .section { padding: 2rem; max-width: 900px; margin: auto; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .feature { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    .cta { background: #4caf50; color: white; padding: 1rem 2rem; font-size: 1.2rem; border: none; border-radius: 8px; cursor: pointer; margin-top: 1rem; }
+    .cta:hover { background: #43a047; }
+    .testimonial { font-style: italic; margin-top: 1rem; }
+    footer { background: #333; color: white; padding: 2rem; text-align: center; margin-top: 3rem; }
+    .app-preview { text-align: center; margin-top: 2rem; }
+    .app-preview img { max-width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+    .download-buttons { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+    .download-buttons img { height: 60px; cursor: pointer; }
+    .email-capture { background: #ffffff; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; margin-top: 2rem; }
+    .email-capture input[type="email"] { padding: 0.8rem; font-size: 1rem; border-radius: 8px; border: 1px solid #ccc; width: 80%; max-width: 400px; margin-bottom: 1rem; }
+    .email-capture button { padding: 0.8rem 1.5rem; font-size: 1rem; background: #6c63ff; color: white; border: none; border-radius: 8px; cursor: pointer; }
+    .email-capture button:hover { background: #5a55e0; }
+    .promo-image { text-align: center; margin-top: 3rem; }
+    .promo-image img { max-width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .buy-button { background: #ff5722; color: white; padding: 1rem 2rem; font-size: 1.2rem; border: none; border-radius: 8px; cursor: pointer; margin-top: 1.5rem; }
+    .buy-button:hover { background: #e64a19; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FOCUX – O app que entende seu cérebro com TDAH</h1>
+    <p>Organize sua vida sem culpa, sem sobrecarga — com leveza, foco e clareza.</p>
+    <div class="download-buttons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Baixar no Google Play">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Baixar na App Store">
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>O que você encontra no FOCUX</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Planner Visual Interativo</h3>
+        <p>Blocos arrastáveis, emojis e organização com cara de você.</p>
+      </div>
+      <div class="feature">
+        <h3>Modo Foco com Sons</h3>
+        <p>Escolha seu som ambiente e entre no modo concentração.</p>
+      </div>
+      <div class="feature">
+        <h3>Recompensas Instantâneas</h3>
+        <p>Frases motivacionais e mini-jogos ao completar tarefas.</p>
+      </div>
+      <div class="feature">
+        <h3>Diário de Humor e Energia</h3>
+        <p>Acompanhe como você está se sentindo e encontre seu ritmo ideal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section app-preview">
+    <h2>Veja o FOCUX em ação</h2>
+    <img src="https://dummyimage.com/800x400/cccccc/000000&text=Preview+do+App+FOCUX" alt="Prévia do App FOCUX">
+  </section>
+
+  <section class="section promo-image">
+    <h2>Imagem Promocional</h2>
+    <img src="A_digital_graphic_design_displays_promotional_mate.png" alt="Imagem promocional do FOCUX">
+    <br>
+    <button class="buy-button" onclick="window.location.href='https://pagamento.exemplo.com/focux'">Comprar por R$ 23,90</button>
+  </section>
+
+  <section class="section email-capture">
+    <h2>Quer receber novidades e conteúdos exclusivos?</h2>
+    <p>Cadastre seu e-mail para receber o e-book gratuito e muito mais:</p>
+    <form>
+      <input type="email" placeholder="Digite seu e-mail" required>
+      <br>
+      <button type="submit">Quero Receber</button>
+    </form>
+  </section>
+
+  <section class="section">
+    <h2>Bônus Exclusivo</h2>
+    <p>📘 E-book gratuito: <strong>"Como organizar seu dia com TDAH (sem surtar!)"</strong></p>
+  </section>
+
+  <section class="section">
+    <h2>Para quem é?</h2>
+    <p>Se você tem TDAH (ou se sente sobrecarregado com organização tradicional), esse app é pra você!</p>
+  </section>
+
+  <section class="section">
+    <h2>O que estão dizendo:</h2>
+    <p class="testimonial">“Finalmente um app que entende meu ritmo!” – Marina, 27 anos</p>
+    <p class="testimonial">“Me sinto produtivo sem me sentir pressionado. Isso muda tudo.” – Thiago, 35 anos</p>
+  </section>
+
+  <section class="section">
+    <h2>Comece agora</h2>
+    <p>✅ Versão grátis com planner, modo foco e diário<br>
+       🚀 Upgrade Premium com rotinas inteligentes e muito mais</p>
+    <div class="download-buttons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Baixar no Google Play">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Baixar na App Store">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FOCUX. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
